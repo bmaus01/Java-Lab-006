@@ -5,6 +5,11 @@
 In this README.md, answer the following question:
 
 * What happens if you invoke a value method (i.e. a method that returns a result) and don't do anything with the returned result; that is, if you don't assign the returned result to a variable or use it as part of a larger expression?
+* 
+* Answer = The method that called the value method receives the value from the value method and continues to the
+* next line in its method. Nothing is done with that value and the program will complete. I believe some memory space 
+* will be assigned the value method's value, but it will not be utilized.
+
 
 ## PART 2
 * Fork and clone this lab as you have done in all previous labs, and then complete the following:
